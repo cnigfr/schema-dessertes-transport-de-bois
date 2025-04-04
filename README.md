@@ -1,63 +1,50 @@
-# Modèle pour les dépôts CNIG de standards
+# Relance du GT Dessertes pour le transport de bois :deciduous_tree:
 
-Ce dépôt contient les fichiers nécessaires pour démarrer la création d'un dépôt pour un standard, il est conforme à ce qui est demandé pour un schéma [Table Schema](https://specs.frictionlessdata.io/table-schema/).
+Dépot des documents et travaux du groupe de travail CNIG Dessertes pour le transport de bois.
 
-## Utiliser ce template
+## Présentation 
 
-- Si vous créez votre dépôt sur GitHub, il vous suffit d'appuyer sur le bouton vert "Use this template". Consultez [la documentation](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) pour plus d'infos ;
+Dans le but de faciliter l’organisation du transport des bois du lieu de stockage en sortie de parcelle jusqu’aux industries de transformation, le MAA, le MTES et les organismes en charge des problématiques de transport et de transformation des bois ont souhaité la création d’un standard de données portant sur les dessertes forestières.
 
-## Fichiers disponibles
+L’objectif était de définir un modèle de données répondant aux besoins de la filière en termes de recensement et de caractérisation des voies praticables pour le transport de bois, des aménagements présents et des points noirs pour la circulation. 
 
-Ce dépôt contient un ensemble de fichiers utiles pour un dépôt d'un schéma [Table Schema](https://specs.frictionlessdata.io/table-schema/).
+Avec la parution de la Loi Incendie, le standard "Dessertes pour le transports de bois" va bientôt être mis à jour afin d’y intégrer la thématique DFCI (Défense des Forêts Contre les Incendies).
 
-- [`CHANGELOG.md`](CHANGELOG.md) contient la liste des changements entre les différentes versions de votre schéma ;
-- [`exemple-valide.csv`](exemple-valide.csv) est un fichier CSV d'exemple conforme par rapport au schéma décrit dans `schema.json`  ;
-- [`LICENSE.md`](LICENSE.md) est le fichier de licence du dépôt. Nous recommandons d'utiliser la [Licence Ouverte](https://www.etalab.gouv.fr/licence-ouverte-open-licence), cette licence est recommandée par l'administration française pour le partage de données et de documents ;
-- [`README.md`](README.md) est le fichier que vous lisez actuellement. À terme, il devra présenter votre schéma ;
-- [`requirements.txt`](requirements.txt) liste les dépendances Python nécessaires pour effectuer des tests en intégration continue sur votre dépôt ;
-- [`schema.json`](schema.json) est le schéma au format Table Schema.
+Jusqu’à présent, ce standard définissait un modèle de données répondant aux besoins de la filière forêt-bois en termes de recensement et de caractérisation des voies praticables pour le transport de bois, des aménagements/équipements présents et des points noirs pour la circulation. L’objectif était de faciliter la mobilisation du bois en forêt du lieu de stockage en sortie de parcelle jusqu’aux industries de transformation.
 
-### Intégration continue
+La loi Incendie (n° 2023-580 du 10/07/2023) vise à renforcer la prévention et la lutte contre l’intensification et l’extension du risque incendie. Elle exige que les informations relatives à la localisation et aux caractéristiques des dessertes forestières, des points d’eau et des pistes utilisables à des fins de défense contre l’incendie fassent l’objet d’une mise à jour tous les cinq ans pour chaque département. Elles doivent être mises à disposition gratuitement et librement sous une forme dématérialisée, sur un portail national commun, au plus tard le 1er janvier 2026.
 
-Ce dépôt est configuré pour utiliser de l'intégration continue, si vous utilisez GitHub. À chaque commit, une suite de tests sera lancée via [GitHub Actions](https://github.com/features/actions) afin de vérifier :
+C’est pourquoi le GT Dessertes pour le transports de bois est relancé afin de réviser le standard validé en 2019.   
 
-- que votre schéma est valide à la spécification Table Schema ;
-- que vos fichiers d'exemples sont conformes au schéma.
-
-Si vous n'utilisez pas GitHub, vous pouvez lancer ces tests sur votre machine ou sur un autre service d'intégration continue comme Gitlab CI, Jenkins, Circle CI, Travis etc. Consultez la configuration utilisée dans [`.github/workflows/test.yml`](.github/workflows/test.yml).
-
-Localement, voici la procédure à suivre pour installer l'environnement de test et lancer les tests :
-
-```bash
-# Création d'un environnement virtuel en Python 3
-python3 -m venv venv
-source venv/bin/activate
-
-# Installation des dépendances
-pip install -r requirements.txt
-
-# Test de la validité du schéma
-frictionless validate --type schema schema.json
-
-# Test de la conformité des fichiers d'exemples
-frictionless validate --schema schema.json exemple-valide.csv
-```
-
-## Étapes à suivre
-
-Nous détaillons ci-dessous les étapes que nous vous conseillons de suivre après avoir créé votre dépôt Git, tout en utilisant les fichiers d'exemples.
-
-- [ ] Décrire votre schéma dans le fichier `schema.json` en respectant la spécification Table Schema. Le fichier d'exemple comprend des valeurs d'exemples pour toutes les métadonnées possibles. Notez que les champs d'exemple ne comprennent qu'une petite partie des types, formats et contraintes disponibles, référez-vous à [la documentation](https://specs.frictionlessdata.io/table-schema/#types-and-formats) pour toutes les valeurs possibles. Si certaines métadonnées ne sont pas nécessaires pour votre projet, vous pouvez les supprimer. Pour vérifier que votre schéma est conforme, vous pouvez utiliser l'outil [tableschema](https://pypi.org/project/tableschema/) en ligne de commande : `tableschema validate schema.json`
-- [ ] Modifier le fichier d'exemple CSV avec des données conforme à votre schéma. L'outil [frictionless](https://pypi.org/project/frictionless/) permet de vérifier que vos fichiers sont conformes au schéma en ligne de commande `frictionless validate --schema schema.json exemple-valide.csv`
-- [ ] Modifier le fichier [`CHANGELOG.md`](CHANGELOG.md) pour indiquer la publication initiale
-- [ ] Modifier le fichier [`README.md`](README.md), en supprimant tout son contenu tout d'abord. Au sein de plusieurs paragraphes, vous indiquerez le contexte, les modalités de production des données, le cadre juridique, la finalité, les cas d’usage etc. Consultez plusieurs schémas sur [schema.data.gouv.fr](https://schema.data.gouv.fr) pour découvrir quelles informations sont pertinentes à indiquer
-- [ ] Vérifier que la licence ouverte vous convient. Si vous devez utiliser une autre licence, modifiez le fichier [`LICENSE.md`](LICENSE.md) et indiquez la licence dans le fichier [`schema.json`](schema.json), dans la clé `licenses`
+Il oeuvre sous mandat de la **Commission Standards du Conseil National de l'Information Géolocalisée** (CNIG). Le **mandat du Groupe de Travail** peut être consulté [ici](http://cnig.gouv.fr/wp-content/uploads/2021/10/MandatModernisationStandardsRisque-vf.pdf). La page dédiée de ce groupe sur le **site du CNIG** est accessible [ici](https://cnig.gouv.fr/gt-dessertes-pour-les-transports-de-bois-a18535.html). 
 
 
-## Documentation
+## Organisation du dépot
 
-Pour vous aider dans la construction de votre dépôt, nous vous recommandons de vous référer à :
+* Le répertoire [documents](/documents) contient ou fait référence aux documents existants utiles au groupe de travail :
 
-- [Le guide à destination des producteurs de schéma](https://guides.etalab.gouv.fr/producteurs-schemas/)
-- [La documentation de schema.data.gouv.fr](https://schema.data.gouv.fr)
-- [La spécification Table Schema](https://specs.frictionlessdata.io/table-schema/)
+  - Documents de travail en commun
+  
+  - Standards en rapport avec notre standard
+
+* Le répertoire [suivi](/suivi) contient les documents de suivi du Groupe de travail : agendas, présentations, compte-rendus des réunions du groupe.
+
+
+## Liste de diffusion
+
+Pour être tenu au courant et/ou participer aux échanges des membres du groupe de travail, merci de vous inscrire à [la liste de diffusion](https://cnig.gouv.fr/gt-dessertes-pour-les-transports-de-bois-a18535.html#H_Vous-souhaitez-rejoindre-le-GT). Toutes les communications / annonces sont faites sur cette liste.
+
+
+## Contributions
+
+Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux discussions sur la liste de diffusion ci-dessus. 
+
+---
+
+Vous pouvez également utiliser les outils proposés par github :
+
+* Poser des questions, demandes d'évolutions via les [Issues](https://github.com/cnigfr/schema-dessertes-transport-de-bois/issues) 
+
+* Proposer des évolutions / corrections via les [Pull Requests](https://github.com/cnigfr/schema-dessertes-transport-de-bois/pulls)
+
+  Pour plus d'informations sur ce mode de collaboration, vous pouvez vous référer à la [documentation Github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
