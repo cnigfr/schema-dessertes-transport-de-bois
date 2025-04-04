@@ -1,4 +1,4 @@
-# Documents liés à la maj du Standard Dessertes pour le transport de bois 
+# Ressources liées à la mise à jour du Standard Dessertes pour le transport de bois :open_file_folder:
 
 On fait référence ici aux documents utiles au groupe de travail.
 

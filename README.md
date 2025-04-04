@@ -1,4 +1,4 @@
-# Relance du GT Dessertes pour le transport de bois :deciduous_tree:
+# Relance du GT Dessertes pour le transport de bois :truck::deciduous_tree::fire_engine:
 
 Dépot des documents et travaux du groupe de travail CNIG Dessertes pour le transport de bois.
 
@@ -21,15 +21,15 @@ Il oeuvre sous mandat de la **Commission Standards du Conseil National de l'Info
 
 ## Organisation du dépot
 
-* Le répertoire [documents](/documents) contient ou fait référence aux documents existants utiles au groupe de travail :
+* Le répertoire [ressources](/ressources) contient ou fait référence aux documents existants utiles au groupe de travail :
 
   - Documents de travail en commun
   
-  - Standards en rapport avec notre standard
+  - Standards, guides et autres modèles en rapport avec notre mission
 
 * Le répertoire [suivi](/suivi) contient les documents de suivi du Groupe de travail : agendas, présentations, compte-rendus des réunions du groupe.
 
-* Le répertoire [schema](/schema) contient le modèle du CNIG pour l'écriture du schéma du standard (travaux à venir, après l'écriture et la validation du standard.
+* Le répertoire [schema](/schema) contient le modèle du CNIG pour l'écriture du schéma du standard (travaux à venir, après l'écriture et la validation du standard).
 
 
 ## Liste de diffusion
