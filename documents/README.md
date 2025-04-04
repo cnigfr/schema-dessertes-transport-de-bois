@@ -8,11 +8,9 @@ On fait référence ici aux documents utiles au groupe de travail.
 
 ## Tableaux de travail
 
-|Titre||Date de publication|Description|
-|-|:-:|:-:|
-|Tableau de travail en commun sur la partie Linéaire Tronçons [GT_Dessertes_Tab_troncons.xlsx](https://github.com/cnigfr/schema-dessertes-transport-de-bois/blob/master/documents/tableaux-de-travail/GT_Dessertes_Tab_troncons.xlsx) | 04/04/2025 | Ce tableau a été créé pour l'atelier Troncons de la 1ere réunion plénière du 06/02/2025. Il recense chacun des éléments linéaires du standard Dessertes v1 et des linéaires DFCI déjà présents dans la BDTOPO. 
-Il contient à côté des propositions d'évolution dans le cadre de la maj du standard. Les commentaires et actions établies durant les ateliers sont reportées sur ce tableau. 
-Il contient le statut de l'attribut (validé, à valider, en discussion, non discuté - explication de la légende dans l'onglet Légende). Il tente d'être exhaustif et de contenir l'ensemble des remarques et décisions prises pour chaque éléments. |
+| Titre     | date  |                                  Description                                                              |
+| --------- |:-----:|:--------------------------------------------------------------------------------------------------------:|
+|Tableau de travail en commun sur la partie Linéaire Tronçons [GT_Dessertes_Tab_troncons.xlsx](https://github.com/cnigfr/schema-dessertes-transport-de-bois/blob/master/documents/tableaux-de-travail/GT_Dessertes_Tab_troncons.xlsx) | 04/04/2025 | Ce tableau a été créé pour l'atelier Troncons de la 1ere réunion plénière du 06/02/2025. Il recense chacun des éléments linéaires du standard Dessertes v1 et des linéaires DFCI déjà présents dans la BDTOPO. Il contient à côté des propositions d'évolution dans le cadre de la maj du standard. Les commentaires et actions établies durant les ateliers sont reportées sur ce tableau. Il contient le statut de l'attribut (validé, à valider, en discussion, non discuté - explication de la légende dans l'onglet Légende). Il tente d'être exhaustif et de contenir l'ensemble des remarques et décisions prises pour chaque éléments. |
 |Tableau de travail en commun sur la partie Ponctuel Equipement| - | A venir |
 |Tableau de travail en commun sur la partie Ponctuel Contraintes| - | A venir |
 |Tableau de travail en commun sur la partie Ponctuel Points d'eau en forêt| - | A venir |
