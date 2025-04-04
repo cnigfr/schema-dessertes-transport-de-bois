@@ -16,7 +16,7 @@ La loi Incendie (n° 2023-580 du 10/07/2023) vise à renforcer la prévention et
 
 C’est pourquoi le GT Dessertes pour le transports de bois est relancé afin de réviser le standard validé en 2019.   
 
-Il oeuvre sous mandat de la **Commission Standards du Conseil National de l'Information Géolocalisée** (CNIG). Le **mandat du Groupe de Travail** peut être consulté [ici](http://cnig.gouv.fr/wp-content/uploads/2021/10/MandatModernisationStandardsRisque-vf.pdf). La page dédiée de ce groupe sur le **site du CNIG** est accessible [ici](https://cnig.gouv.fr/gt-dessertes-pour-les-transports-de-bois-a18535.html). 
+Il oeuvre sous mandat de la **Commission Standards du Conseil National de l'Information Géolocalisée** (CNIG). Le **mandat du Groupe de Travail** peut être consulté [ici](https://github.com/cnigfr/schema-dessertes-transport-de-bois/blob/master/suivi/2025-02-06_1ere_reunion_pleniere/Projet%20Mandat%20CNIG_GT%20Dessertes.docx). La page dédiée de ce groupe sur le **site du CNIG** est accessible [ici](https://cnig.gouv.fr/gt-dessertes-pour-les-transports-de-bois-a18535.html). 
 
 
 ## Organisation du dépot
@@ -28,6 +28,8 @@ Il oeuvre sous mandat de la **Commission Standards du Conseil National de l'Info
   - Standards en rapport avec notre standard
 
 * Le répertoire [suivi](/suivi) contient les documents de suivi du Groupe de travail : agendas, présentations, compte-rendus des réunions du groupe.
+
+* Le répertoire [schema](/schema) contient le modèle du CNIG pour l'écriture du schéma du standard (travaux à venir, après l'écriture et la validation du standard.
 
 
 ## Liste de diffusion
