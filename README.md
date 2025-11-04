@@ -1,4 +1,4 @@
-# :truck::deciduous_tree: Standard CNIG Dessertes en forêt : Transport de bois et DFCI:fire_engine:
+# :truck::deciduous_tree: Standard CNIG Dessertes en forêt : Transport de bois et DFCI :evergreen_tree::fire_engine:
 
 Dépot des documents et travaux du groupe de travail CNIG concernant la mise à jour du Standard "Dessertes pour le transport de bois"
 
