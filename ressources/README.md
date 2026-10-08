@@ -45,3 +45,11 @@ Intègre les tableaux de v2 potentielle. Ils recensent les résultats de nos dis
 | Titre     | Auteur   | date  |                                  Description                                                              |
 | --------- |:--------:|:------:|:--------------------------------------------------------------------------------------------------------:|
 | [« Référentiel National pour la DECI du 15/12/2015 »](https://www.interieur.gouv.fr/content/download/91185/709898/file/r%C3%A9f%20nat%20DECI%20du%2015%20d%C3%A9c%202015.pdf)| DGSCGC | 15 décembre 2015 | Ce document est pointé comme référence DECI par le Modèle de données AFIGEO pour les PEI. |
+
+## Appel à commentaires
+
+Ce répertoire contient les documents diffusés lors de l'appel à commentaires.
+
+Il contient :
+- Le standard destiné à la relecture diffusé lors de l'appel à commentaires
+- Le tableau de recensement des commentaires et de leurs réponses. 

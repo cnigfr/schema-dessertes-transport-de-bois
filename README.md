@@ -1,7 +1,8 @@
 # :truck::deciduous_tree: Standard CNIG Dessertes en forêt : Transport de bois et DFCI :evergreen_tree::fire_engine:
 
-Dépot des documents et travaux du groupe de travail CNIG concernant la mise à jour du Standard "Dessertes pour le transport de bois"
+Dépot des documents et travaux du groupe de travail CNIG Dessertes en forêt
 
+**Le standard V2.0 est publié et disponible dans le dossier V2.0**
 
 ## Contexte du standard
 
@@ -26,11 +27,13 @@ Il oeuvre sous mandat de la **Commission Standards du Conseil National de l'Info
   
   - Standards, guides et autres modèles en rapport avec notre mission
 
+  - Documents liés à l'appel à commentaires 
+
 * Le répertoire [suivi](/suivi) contient les documents de suivi du Groupe de travail : agendas, présentations, compte-rendus des réunions du groupe.
 
-* Le répertoire [schema](/schema) contient le modèle du CNIG pour l'écriture du schéma du standard (travaux à venir, après l'écriture et la validation du standard).
+* Le répertoire [schema](/schema) contient le modèle du CNIG pour l'écriture du schéma du standard (en cours de validation).
 
-* Le répertoire [V2.0](/V2.0) contient les documents diffusés pour l'appel à commentaires (27/07/2026 au 11/09/2026).
+* Le répertoire [V2.0](/V2.0) contient la V2.0 du standard et les outils d'aides à l'implémentation.
 
 
 ## Liste de diffusion
@@ -46,8 +49,8 @@ Vous pouvez contribuer au Groupe de travail en participant aux réunions et aux 
 
 Vous pouvez également utiliser les outils proposés par github :
 
-* Poser des questions, demandes d'évolutions via les [Issues](https://github.com/cnigfr/schema-dessertes-transport-de-bois/issues) 
+* Poser des questions, demandes d'évolutions via les [Issues](https://github.com/cnigfr/schema-dessertes-transport-de-bois/issues) ou via le [CNIG](https://cnig.gouv.fr/spip.php?page=contact).
 
-* Proposer des évolutions / corrections via les [Pull Requests](https://github.com/cnigfr/schema-dessertes-transport-de-bois/pulls)
+* 
 
-  Pour plus d'informations sur ce mode de collaboration, vous pouvez vous référer à la [documentation Github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests).
+
